@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>ReadCan2Thread.c</url>
+            <bookmark id="2">
+                <name/>
+                <line>24</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>SerialPort.c</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/TakingSampleByRemoteThread.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/main.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/AllPthreadCreate.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/SerialDataHandleThread.h</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/SerialDataHandleThread.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/ReadCan2Thread.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/UltrasonicReadThread.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/WashBottleThread.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/SerialPort.h</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/CanbusDataHandleThread.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/SerialPort.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/Arm.h</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/AutoPilotThread.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/AllPthreadCreate.h</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/can1.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/can0.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/AutoPilotThread.h</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/SerialPort2.c</file>
+            <file>file:/E:/Vciash/IMX6%20new%20platform/Code/USVTrafficBoatMainControl%20V1.6LC-FV/USV/can0.h</file>
+        </group>
+    </open-files>
+</project-private>

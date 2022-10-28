@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f4" displayName="BoatData" projectFiles="true">
+        <itemPath>AutoPilotData.h</itemPath>
+        <itemPath>BoatData.h</itemPath>
+        <itemPath>MonitorData.h</itemPath>
+        <itemPath>SamplingMonitorMode.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Canbus" projectFiles="true">
+        <itemPath>can0.h</itemPath>
+        <itemPath>can1.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Pthread" projectFiles="true">
+        <itemPath>AllPthreadCreate.h</itemPath>
+        <itemPath>AutoPilotThread.h</itemPath>
+        <itemPath>CanbusDataHandleThread.h</itemPath>
+        <itemPath>ReadCan2Thread.h</itemPath>
+        <itemPath>SerialDataHandleThread.h</itemPath>
+        <itemPath>TakingSampleByRemoteThread.h</itemPath>
+        <itemPath>UltrasonicReadThread.h</itemPath>
+        <itemPath>WashBottleThread.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="RFModule" projectFiles="true">
+        <itemPath>SerialPort.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="Uart" projectFiles="true">
+        <itemPath>SerialPort2.h</itemPath>
+        <itemPath>SerialPort4.h</itemPath>
+      </logicalFolder>
+      <itemPath>Arm.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="f4" displayName="BoatData" projectFiles="true">
+        <itemPath>AutoPilotData.c</itemPath>
+        <itemPath>BoatData.c</itemPath>
+        <itemPath>SamplingMonitorMode.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Canbus" projectFiles="true">
+        <itemPath>can0.c</itemPath>
+        <itemPath>can1.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Pthread" projectFiles="true">
+        <itemPath>AllPthreadCreate.c</itemPath>
+        <itemPath>AutoPilotThread.c</itemPath>
+        <itemPath>CanbusDataHandleThread.c</itemPath>
+        <itemPath>ReadCan2Thread.c</itemPath>
+        <itemPath>SerialDataHandleThread.c</itemPath>
+        <itemPath>TakingSampleByRemoteThread.c</itemPath>
+        <itemPath>UltrasonicReadThread.c</itemPath>
+        <itemPath>WashBottleThread.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="RFModule" projectFiles="true">
+        <itemPath>SerialPort.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="Uart" projectFiles="true">
+        <itemPath>SerialPort2.c</itemPath>
+        <itemPath>SerialPort4.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>VCAISH_usv|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="AllPthreadCreate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="AllPthreadCreate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Arm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AutoPilotData.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="AutoPilotData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AutoPilotThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="AutoPilotThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoatData.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="BoatData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CanbusDataHandleThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="CanbusDataHandleThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MonitorData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReadCan2Thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ReadCan2Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SamplingMonitorMode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SamplingMonitorMode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialDataHandleThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialDataHandleThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialPort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialPort2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialPort2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialPort4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialPort4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TakingSampleByRemoteThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="TakingSampleByRemoteThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UltrasonicReadThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="UltrasonicReadThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WashBottleThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="WashBottleThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can0.c" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can1.c" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <commandlineTool>arm-linux-gnueabihf-gcc</commandlineTool>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandlineTool>arm-linux-gnueabihf-g++</commandlineTool>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="AllPthreadCreate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="AllPthreadCreate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Arm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AutoPilotData.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="AutoPilotData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AutoPilotThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="AutoPilotThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoatData.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="BoatData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CanbusDataHandleThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="CanbusDataHandleThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MonitorData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReadCan2Thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ReadCan2Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SamplingMonitorMode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SamplingMonitorMode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialDataHandleThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialDataHandleThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialPort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialPort2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialPort2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialPort4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SerialPort4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TakingSampleByRemoteThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="TakingSampleByRemoteThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UltrasonicReadThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="UltrasonicReadThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WashBottleThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="WashBottleThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can0.c" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can1.c" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

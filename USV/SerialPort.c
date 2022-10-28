@@ -39,6 +39,7 @@ INT32 serial_constructor(void) {
     if ((device_fd = open(SERIAL_DEV_NAME, O_RDWR | O_NONBLOCK)) < 0) {
         return -1;
     }
+
     if (fcntl(device_fd, F_SETFL, 0) < 0) {
         printf("fcntl failed!\n");
     } else {
